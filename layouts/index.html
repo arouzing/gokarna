@@ -7,6 +7,7 @@
 	</div>
     <h1>{{ .Site.Title }}</h1>
     <h3>{{ .Site.Params.Description }}</h3>
+    <div>{{ .Site.Params.customcontent | safeHTML }}</div>
 </section>
 
 <div class="flex-break"></div>
